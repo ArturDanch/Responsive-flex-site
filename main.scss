@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: auto;
+  width: max-content;
+  .item {
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+  }
+}
